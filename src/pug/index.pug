@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title One Page Wonder - Start Bootstrap Template
+        title StoreHouse Project
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -24,18 +24,18 @@ html(lang='en')
 
     body#page-top
 
-        // Navigation
-        nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
-            .container.px-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
-                button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                    span.navbar-toggler-icon
-                #navbarResponsive.collapse.navbar-collapse
-                    ul.navbar-nav.ms-auto
-                        li.nav-item
-                            a.nav-link(href='#!') Sign Up
-                        li.nav-item
-                            a.nav-link(href='#!') Log In
+        //- // Navigation
+        //- nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
+        //-     .container.px-5
+        //-         a.navbar-brand(href='#page-top') Start Bootstrap
+        //-         button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+        //-             span.navbar-toggler-icon
+        //-         #navbarResponsive.collapse.navbar-collapse
+        //-             ul.navbar-nav.ms-auto
+        //-                 li.nav-item
+        //-                     a.nav-link(href='#!') Sign Up
+        //-                 li.nav-item
+        //-                     a.nav-link(href='#!') Log In
 
         // Header
         header.masthead.text-center.text-white
@@ -44,7 +44,7 @@ html(lang='en')
                     h1.masthead-heading.mb-0 The StoreHouse
                     h2.masthead-subheading.mb-0 Calvin Senior Project 2021-2022
                     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll') Learn More
-                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll2') Our Documents
+                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll2') Documents
                     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll3') Our Team
                     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='https://computing.calvin.edu/') Calvin C.S. Website
             .bg-circle-1.bg-circle
@@ -58,9 +58,13 @@ html(lang='en')
                 .row.gx-5.align-items-center
                     .col-lg-6
                         .p-5
-                            h2.display-4 Vision
+                            h2.display-4 Background & Vision
+                            p 
+                                | The StoreHouse is a local, Grand Rapids based non-profit. The organization seeks to obtain products from both local and national donors in order to distribute them to other non-profits and communities in need. Currently, they have no effective way of tracking their inventory, which is very diverse and frequently changing in composition.
                             p
-                                | Our Vision
+                                | Our vision is to provide The StoreHouse with a prototype web-based interface that shows aspects of their current inventory. We are aiming to improve their ability to efficiently receive, organize, and distribute items in a way that is not technologically overwhelming for the organization’s employees and volunteers.
+
+
         // Content section 2
         section#scroll2
             .container.px-5
@@ -69,7 +73,12 @@ html(lang='en')
                         .p-5
                             h2.display-4 Documents and Links
                             p
-                                | Our Documents
+                                a(href='https://docs.google.com/document/d/1xEtjG9XXy-acjmcXKzjMJg3CtUr_7ffK5v-qdTZcSNk/edit?usp=sharing') Project Report
+                            p    
+                                a(href='https://docs.google.com/presentation/d/1EZqU6KrvLC8c-24ZZU9rMDO0XSHoRj90PlY5tQ-eSOo/edit?usp=sharing') Mid-Project Presentation
+                            
+                            
+
         // Content section 3
         section#scroll3
             .container.px-5
@@ -83,7 +92,7 @@ html(lang='en')
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
                         .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/mindy.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/mindy.jpg', alt='Nathan Minderhoud')
                     .col-lg-6.order-lg-1
                         .p-5
                             h2.display-4 Nathan Minderhoud
@@ -96,12 +105,12 @@ html(lang='en')
                 .row.gx-5.align-items-center
                     .col-lg-6
                         .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/02.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/jacob.jpg', alt='Jacob Williams')
                     .col-lg-6
                         .p-5
                             h2.display-4 Jacob Williams
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                | Jacob is a senior studying Computer Science and Business. He is constantly looking for way to be involved in the community and is very excited for this engagement with The StoreHouse.
 
         // Content section 6
         section
@@ -109,12 +118,12 @@ html(lang='en')
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
                         .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/coleman.jpg', alt='Coleman Ulry')
                     .col-lg-6.order-lg-1
                         .p-5
                             h2.display-4 Coleman Ulry
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                | Coleman is a senior majoring in Computer Science. He has a lot of experience with web development and is excited to build a useful platform for The StoreHouse.
         
         // Footer
         footer.py-5.bg-black
