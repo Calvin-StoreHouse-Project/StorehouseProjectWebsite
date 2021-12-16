@@ -21,10 +21,10 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/one-page-wonder",
+    "homepage": "https://calvin-cs396-98-storehouse.github.io/storehouse/",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/calvin-cs396-98-storehouse/storehouse/issues",
+        "email": "mindysport@gmail.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
@@ -33,7 +33,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-one-page-wonder.git"
+        "url": "https://github.com/calvin-cs396-98-storehouse/storehouse.git"
     },
     "dependencies": {
         "bootstrap": "5.1.3"
