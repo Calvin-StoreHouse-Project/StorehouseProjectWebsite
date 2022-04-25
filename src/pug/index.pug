@@ -27,15 +27,15 @@ html(lang='en')
         //- // Navigation
         //- nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
         //-     .container.px-5
-        //-         a.navbar-brand(href='#page-top') Start Bootstrap
+        //-         a.navbar-brand(href='#page-top') Back to Top
         //-         button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
         //-             span.navbar-toggler-icon
         //-         #navbarResponsive.collapse.navbar-collapse
         //-             ul.navbar-nav.ms-auto
         //-                 li.nav-item
-        //-                     a.nav-link(href='#!') Sign Up
-        //-                 li.nav-item
-        //-                     a.nav-link(href='#!') Log In
+        //-                 a
+        //-                     a.navbar-brand(href='https://www.storehousemi.org/')
+        //-                         img.img-thumbnail(src='assets/img/storehouse.jpg', alt='The StoreHouse')
 
         // Header
         header.masthead.text-center.text-white
@@ -44,9 +44,9 @@ html(lang='en')
                     h1.masthead-heading.mb-0 The StoreHouse
                     h2.masthead-subheading.mb-0 Calvin Senior Project 2021-2022
                     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll') Learn More
-                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll2') Documents
+                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll2') Documents and Links
                     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll3') Our Team
-                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='https://computing.calvin.edu/') Calvin C.S. Website
+                    //a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='https://computing.calvin.edu/') Calvin C.S. Website
             .bg-circle-1.bg-circle
             .bg-circle-2.bg-circle
             .bg-circle-3.bg-circle
@@ -56,14 +56,15 @@ html(lang='en')
         section#scroll
             .container.px-5
                 .row.gx-5.align-items-center
-                    .col-lg-6
+                    .col-lg-15
                         .p-5
                             h2.display-4 Background & Vision
                             p 
                                 | The StoreHouse is a local, Grand Rapids based non-profit. The organization seeks to obtain products from both local and national donors in order to distribute them to other non-profits and communities in need. Currently, they have no effective way of tracking their inventory, which is very diverse and frequently changing in composition.
+                            p 
+                                | Because of the Storehouse's non-standard inventory system in which individual items are not tracked, custom software is required to allow for some level of transparency and visibility for both Storehouse managers and outside donors.
                             p
-                                | Our vision is to provide The StoreHouse with a prototype web-based interface that shows aspects of their current inventory. We are aiming to improve their ability to efficiently receive, organize, and distribute items in a way that is not technologically overwhelming for the organization’s employees and volunteers.
-
+                                | Our vision is to provide The StoreHouse with a prototype web-based interface that shows aspects of their current and past surplus inventory and allows them to create, read, update, and delete as necessary. We are aiming to improve their ability to efficiently receive, organize, and distribute items in a way that is not technologically overwhelming for the organization’s employees and volunteers.
 
         // Content section 2
         section#scroll2
@@ -71,12 +72,22 @@ html(lang='en')
                 .row.gx-5.align-items-center
                     .col-lg-6
                         .p-5
-                            h2.display-4 Documents and Links
+                            h2.display-4 Documents
                             p
-                                a(href='https://docs.google.com/document/d/1xEtjG9XXy-acjmcXKzjMJg3CtUr_7ffK5v-qdTZcSNk/edit?usp=sharing') Project Report
+                                a(href='https://docs.google.com/document/d/1xEtjG9XXy-acjmcXKzjMJg3CtUr_7ffK5v-qdTZcSNk/edit?usp=sharing') Initial Project Proposal
                             p    
-                                a(href='https://docs.google.com/presentation/d/1EZqU6KrvLC8c-24ZZU9rMDO0XSHoRj90PlY5tQ-eSOo/edit?usp=sharing') Mid-Project Presentation
-                            
+                                a(href='https://docs.google.com/presentation/d/1clu8EsfzSsuYWskeogYsWAA0PbuiAWUHMzl4nZ0AVTk/edit?usp=sharing') Final Presentation
+                            p
+                                a(href='https://docs.google.com/document/d/1CZxSHo6yARzD7XTODCcHOw0J0hI_12A4wNSKcsEeSyg/edit?usp=sharing') Complete Final Report
+                    .col-lg-6
+                        .p-5
+                            h2.display-4  Links
+                            p    
+                                a(href='https://computing.calvin.edu/') Calvin C.S. Department Website
+                            p    
+                                a(href='https://www.storehousemi.org/') The StoreHouse
+                            p    
+                                a(href='https://github.com/Calvin-StoreHouse-Project') Our Codebase
                             
 
         // Content section 3
@@ -95,7 +106,7 @@ html(lang='en')
                             img.img-fluid.rounded-circle(src='assets/img/mindy3.jpg', alt='Nathan Minderhoud')
                     .col-lg-6.order-lg-1
                         .p-5
-                            h2.display-4 Nathan Minderhoud
+                            h2.display-6 Nathan Minderhoud
                             p
                                 | Nathan is a senior majoring in B.C.S and Mathematics. He is excited to be a part of the StoreHouse project to assist the charity in helping local nonprofits and low income schools.
 
@@ -108,7 +119,7 @@ html(lang='en')
                             img.img-fluid.rounded-circle(src='assets/img/jacob.jpg', alt='Jacob Williams')
                     .col-lg-6
                         .p-5
-                            h2.display-4 Jacob Williams
+                            h2.display-6 Jacob Williams
                             p
                                 | Jacob is a senior studying Computer Science and Business. He is constantly looking for way to be involved in the community and is very excited for this engagement with The StoreHouse.
 
@@ -121,7 +132,7 @@ html(lang='en')
                             img.img-fluid.rounded-circle(src='assets/img/coleman.jpg', alt='Coleman Ulry')
                     .col-lg-6.order-lg-1
                         .p-5
-                            h2.display-4 Coleman Ulry
+                            h2.display-6 Coleman Ulry
                             p
                                 | Coleman is a senior majoring in Computer Science. He has a lot of experience with web development and is excited to build a useful platform for The StoreHouse.
         
